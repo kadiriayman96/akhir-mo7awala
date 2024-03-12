@@ -13,6 +13,9 @@ void crypter(char *message, int decalage) {
     }
 }
 
+void decrypter(char *message, int decalage) {
+    crypter(message, 26 - decalage);
+}
 
 int main() {
     char message[100];
@@ -28,7 +31,8 @@ int main() {
     crypter(message, decalage);
     printf("Message crypté: %s\n", message);
 
-
+    decrypter(message, decalage);
+    printf("Message décrypté: %s\n", message);
 
     return 0;
 }

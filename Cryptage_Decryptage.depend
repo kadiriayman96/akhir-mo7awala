@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1710238579 source:c:\users\mugiwara\desktop\mern stack\language c algorithme\cryptage_decryptage\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
